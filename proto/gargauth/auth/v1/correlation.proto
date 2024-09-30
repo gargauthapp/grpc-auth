@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+message Correlation {
+  bytes uid = 1;
+}

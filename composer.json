@@ -1,0 +1,23 @@
+{
+    "name": "gargauth/grpc-auth",
+    "description": "Definitions for using Gargauth GRPC Auth service",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gargauth\\Auth\\": "php/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Barney Hanlon",
+            "email": "barney@gargauth.app"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">= 8.3",
+        "grpc/grpc": "^1.57",
+        "google/protobuf": "^4.28"
+    }
+}

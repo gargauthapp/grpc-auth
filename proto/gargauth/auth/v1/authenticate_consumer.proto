@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "gargauth/auth/v1/auth_request.proto";
+
+import "gargauth/auth/v1/auth_response.proto";
+
+service AuthenticateConsumerService {
+  rpc authenticate(AuthRequest) returns (AuthResponse);
+}

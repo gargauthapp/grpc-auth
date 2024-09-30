@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "gargauth/auth/v1/correlation.proto";
+
+message AuthRequest {
+  Correlation correlation = 1;
+  bytes key_id = 2;
+  bytes client_id = 3;
+  bytes public_key = 4;
+  bytes payload = 5;
+}
