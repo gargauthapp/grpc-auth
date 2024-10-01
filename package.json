@@ -6,9 +6,6 @@
   "author": "Barney Hanlon <barney@shrikeh.net>",
   "license": "MIT",
   "main": "js/index.js",
-  "exports": {
-    "./*": "./js/gargauth/auth/v1/"
-  },
   "dependencies": {
     "@bufbuild/protobuf": "^2.1.0"
   },
