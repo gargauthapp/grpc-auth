@@ -14,5 +14,12 @@
   "files": [
     "./typescript",
     "./proto"
-  ]
+  ],
+  "devDependencies": {
+    "@bufbuild/buf": "^1.43.0",
+    "@bufbuild/protoc-gen-es": "^2.1.0",
+    "@protobuf-ts/protoc": "^2.9.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
 }

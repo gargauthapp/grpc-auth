@@ -11,3 +11,6 @@ plugins:
     out: php
   - remote: buf.build/bufbuild/es:v2.1.0
     out: typescript
+    opt:
+      - target=dts
+
