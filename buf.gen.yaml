@@ -9,3 +9,5 @@ plugins:
     out: php
   - remote: buf.build/grpc/php:v1.62.1
     out: php
+  - remote: buf.build/bufbuild/es:v2.1.0
+    out: typescript
