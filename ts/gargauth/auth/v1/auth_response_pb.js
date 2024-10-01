@@ -4,10 +4,10 @@
 /* eslint-disable */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthResponseSchema = exports.file_gargauth_auth_v1_auth_response = void 0;
-const codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
-const auth_successful_pb_1 = require("./auth_successful_pb");
-const auth_failure_pb_1 = require("./auth_failure_pb");
-const correlation_pb_1 = require("./correlation_pb");
+var codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
+var auth_successful_pb_1 = require("./auth_successful_pb");
+var auth_failure_pb_1 = require("./auth_failure_pb");
+var correlation_pb_1 = require("./correlation_pb");
 /**
  * Describes the file gargauth/auth/v1/auth_response.proto.
  */

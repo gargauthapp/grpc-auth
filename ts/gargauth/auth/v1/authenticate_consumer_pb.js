@@ -4,9 +4,9 @@
 /* eslint-disable */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthenticateConsumerService = exports.file_gargauth_auth_v1_authenticate_consumer = void 0;
-const codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
-const auth_request_pb_1 = require("./auth_request_pb");
-const auth_response_pb_1 = require("./auth_response_pb");
+var codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
+var auth_request_pb_1 = require("./auth_request_pb");
+var auth_response_pb_1 = require("./auth_response_pb");
 /**
  * Describes the file gargauth/auth/v1/authenticate_consumer.proto.
  */

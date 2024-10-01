@@ -4,8 +4,8 @@
 /* eslint-disable */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthRequestSchema = exports.file_gargauth_auth_v1_auth_request = void 0;
-const codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
-const correlation_pb_1 = require("./correlation_pb");
+var codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
+var correlation_pb_1 = require("./correlation_pb");
 /**
  * Describes the file gargauth/auth/v1/auth_request.proto.
  */

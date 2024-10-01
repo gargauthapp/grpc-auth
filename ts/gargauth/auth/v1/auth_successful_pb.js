@@ -4,7 +4,7 @@
 /* eslint-disable */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthSuccessfulSchema = exports.file_gargauth_auth_v1_auth_successful = void 0;
-const codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
+var codegenv1_1 = require("@bufbuild/protobuf/codegenv1");
 /**
  * Describes the file gargauth/auth/v1/auth_successful.proto.
  */
