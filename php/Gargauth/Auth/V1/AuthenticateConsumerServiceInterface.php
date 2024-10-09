@@ -13,10 +13,10 @@ interface AuthenticateConsumerServiceInterface extends GRPC\ServiceInterface
 
     /**
     * @param GRPC\ContextInterface $ctx
-    * @param AuthRequest $in
-    * @return AuthResponse
+    * @param AuthenticateConsumerRequest $in
+    * @return AuthenticateConsumerResponse
     *
     * @throws GRPC\Exception\InvokeException
     */
-    public function authenticate(GRPC\ContextInterface $ctx, AuthRequest $in): AuthResponse;
+    public function authenticate(GRPC\ContextInterface $ctx, AuthenticateConsumerRequest $in): AuthenticateConsumerResponse;
 }

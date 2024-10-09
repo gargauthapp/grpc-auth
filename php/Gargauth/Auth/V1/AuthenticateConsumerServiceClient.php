@@ -17,16 +17,16 @@ class AuthenticateConsumerServiceClient extends \Grpc\BaseStub {
     }
 
     /**
-     * @param \Gargauth\Auth\V1\AuthRequest $argument input argument
+     * @param \Gargauth\Auth\V1\AuthenticateConsumerRequest $argument input argument
      * @param array $metadata metadata
      * @param array $options call options
      * @return \Grpc\UnaryCall
      */
-    public function authenticate(\Gargauth\Auth\V1\AuthRequest $argument,
+    public function authenticate(\Gargauth\Auth\V1\AuthenticateConsumerRequest $argument,
       $metadata = [], $options = []) {
         return $this->_simpleRequest('/gargauth.auth.v1.AuthenticateConsumerService/authenticate',
         $argument,
-        ['\Gargauth\Auth\V1\AuthResponse', 'decode'],
+        ['\Gargauth\Auth\V1\AuthenticateConsumerResponse', 'decode'],
         $metadata, $options);
     }
 

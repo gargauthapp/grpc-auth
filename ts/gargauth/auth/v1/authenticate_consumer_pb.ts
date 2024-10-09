@@ -4,16 +4,16 @@
 
 import type { GenFile, GenService } from "@bufbuild/protobuf/codegenv1";
 import { fileDesc, serviceDesc } from "@bufbuild/protobuf/codegenv1";
-import type { AuthRequestSchema } from "./auth_request_pb";
-import { file_gargauth_auth_v1_auth_request } from "./auth_request_pb";
-import type { AuthResponseSchema } from "./auth_response_pb";
-import { file_gargauth_auth_v1_auth_response } from "./auth_response_pb";
+import type { AuthenticateConsumerRequestSchema } from "./authenticate_consumer_request_pb";
+import { file_gargauth_auth_v1_authenticate_consumer_request } from "./authenticate_consumer_request_pb";
+import type { AuthenticateConsumerResponseSchema } from "./authenticate_consumer_response_pb";
+import { file_gargauth_auth_v1_authenticate_consumer_response } from "./authenticate_consumer_response_pb";
 
 /**
  * Describes the file gargauth/auth/v1/authenticate_consumer.proto.
  */
 export const file_gargauth_auth_v1_authenticate_consumer: GenFile = /*@__PURE__*/
-  fileDesc("CixnYXJnYXV0aC9hdXRoL3YxL2F1dGhlbnRpY2F0ZV9jb25zdW1lci5wcm90bxIQZ2FyZ2F1dGguYXV0aC52MTJsChtBdXRoZW50aWNhdGVDb25zdW1lclNlcnZpY2USTQoMYXV0aGVudGljYXRlEh0uZ2FyZ2F1dGguYXV0aC52MS5BdXRoUmVxdWVzdBoeLmdhcmdhdXRoLmF1dGgudjEuQXV0aFJlc3BvbnNlQpMBChRjb20uZ2FyZ2F1dGguYXV0aC52MUIZQXV0aGVudGljYXRlQ29uc3VtZXJQcm90b1ABogIDR0FYqgIQR2FyZ2F1dGguQXV0aC5WMcoCEEdhcmdhdXRoXEF1dGhcVjHiAhxHYXJnYXV0aFxBdXRoXFYxXEdQQk1ldGFkYXRh6gISR2FyZ2F1dGg6OkF1dGg6OlYxYgZwcm90bzM", [file_gargauth_auth_v1_auth_request, file_gargauth_auth_v1_auth_response]);
+  fileDesc("CixnYXJnYXV0aC9hdXRoL3YxL2F1dGhlbnRpY2F0ZV9jb25zdW1lci5wcm90bxIQZ2FyZ2F1dGguYXV0aC52MTKMAQobQXV0aGVudGljYXRlQ29uc3VtZXJTZXJ2aWNlEm0KDGF1dGhlbnRpY2F0ZRItLmdhcmdhdXRoLmF1dGgudjEuQXV0aGVudGljYXRlQ29uc3VtZXJSZXF1ZXN0Gi4uZ2FyZ2F1dGguYXV0aC52MS5BdXRoZW50aWNhdGVDb25zdW1lclJlc3BvbnNlQpMBChRjb20uZ2FyZ2F1dGguYXV0aC52MUIZQXV0aGVudGljYXRlQ29uc3VtZXJQcm90b1ABogIDR0FYqgIQR2FyZ2F1dGguQXV0aC5WMcoCEEdhcmdhdXRoXEF1dGhcVjHiAhxHYXJnYXV0aFxBdXRoXFYxXEdQQk1ldGFkYXRh6gISR2FyZ2F1dGg6OkF1dGg6OlYxYgZwcm90bzM", [file_gargauth_auth_v1_authenticate_consumer_request, file_gargauth_auth_v1_authenticate_consumer_response]);
 
 /**
  * @generated from service gargauth.auth.v1.AuthenticateConsumerService
@@ -24,8 +24,8 @@ export const AuthenticateConsumerService: GenService<{
    */
   authenticate: {
     methodKind: "unary";
-    input: typeof AuthRequestSchema;
-    output: typeof AuthResponseSchema;
+    input: typeof AuthenticateConsumerRequestSchema;
+    output: typeof AuthenticateConsumerResponseSchema;
   },
 }> = /*@__PURE__*/
   serviceDesc(file_gargauth_auth_v1_authenticate_consumer, 0);

@@ -1,6 +1,0 @@
-syntax = "proto3";
-
-package gargauth.auth.v1;
-
-message AuthSuccessful {
-}

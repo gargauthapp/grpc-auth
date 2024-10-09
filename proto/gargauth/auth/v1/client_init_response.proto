@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "gargauth/auth/v1/correlation.proto";
+
+message ClientInitResponse {
+  Correlation correlation = 1;
+}

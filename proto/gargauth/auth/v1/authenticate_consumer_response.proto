@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "gargauth/auth/v1/consumer/consumer_auth_successful.proto";
+import "gargauth/auth/v1/consumer/consumer_auth_failure.proto";
+import "gargauth/auth/v1/correlation.proto";
+
+message AuthenticateConsumerResponse {
+  Correlation correlation = 1;
+  oneof result {
+    ConsumerAuthSuccessful success = 2;
+    ConsumerAuthFailure failure = 3;
+  }
+}

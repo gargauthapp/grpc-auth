@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "gargauth/auth/v1/client_init_request.proto";
+import "gargauth/auth/v1/client_init_response.proto";
+
+service InitClientService {
+  rpc authenticate(ClientInitRequest) returns (ClientInitResponse);
+}

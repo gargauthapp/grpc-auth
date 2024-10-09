@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+message ApiKey {
+  bytes client = 1;
+  bytes key_id = 2;
+  bytes payload = 3;
+  bytes signature = 4;
+}

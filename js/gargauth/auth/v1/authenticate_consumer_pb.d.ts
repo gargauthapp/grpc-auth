@@ -1,6 +1,6 @@
 import type { GenFile, GenService } from "@bufbuild/protobuf/codegenv1";
-import type { AuthRequestSchema } from "./auth_request_pb";
-import type { AuthResponseSchema } from "./auth_response_pb";
+import type { AuthenticateConsumerRequestSchema } from "./authenticate_consumer_request_pb";
+import type { AuthenticateConsumerResponseSchema } from "./authenticate_consumer_response_pb";
 /**
  * Describes the file gargauth/auth/v1/authenticate_consumer.proto.
  */
@@ -14,7 +14,7 @@ export declare const AuthenticateConsumerService: GenService<{
      */
     authenticate: {
         methodKind: "unary";
-        input: typeof AuthRequestSchema;
-        output: typeof AuthResponseSchema;
+        input: typeof AuthenticateConsumerRequestSchema;
+        output: typeof AuthenticateConsumerResponseSchema;
     };
 }>;

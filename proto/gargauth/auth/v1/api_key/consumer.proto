@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "google/protobuf/timestamp.proto";
+
+message Consumer {
+  bytes uid = 1;
+  google.protobuf.Timestamp issued = 2;
+  optional google.protobuf.Timestamp expiry = 3;
+}

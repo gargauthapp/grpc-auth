@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package gargauth.auth.v1;
+
+import "gargauth/auth/v1/client.proto";
+
+message AuthenticateConsumerRequest {
+  Client client = 1;
+  bytes payload = 2;
+}
